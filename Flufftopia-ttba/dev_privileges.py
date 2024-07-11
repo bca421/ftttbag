@@ -21,7 +21,7 @@ def grant_dev_privileges(self):
             ("Test Use Skill", self.dev_test_use_skill),
             ("Increase Health", self.dev_increase_health),
             ("Add Item", self.dev_add_item),
-            ("Unlock Location", self.dev_unlock_location)
+            #("Unlock Location", self.dev_unlock_location)
         ]
 
         for text, func in buttons:

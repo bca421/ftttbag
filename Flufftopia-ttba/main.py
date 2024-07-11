@@ -352,8 +352,24 @@ class FlufftopiaApp(App):
         new_locations = {
 
             "level_2": ["fairy_glade",],
-            "level_3": ["enchanted_forest"],
-            "level_4": ["hidden_village"],
+            "level_3": ["forgotten_tomb"],
+            "level_4": ["mystic_mountains"],
+            "level_5": ["dragon_lair",],
+            "level_6": ["haunted_castle"],
+            "level_7": ["hidden_dungeon"],
+            "level_8": ["serene_lake",],
+            "level_9": ["mystic_island"],
+            "level_10": ["desert_oasis"],
+            "level_11": ["hidden_sanctuary",],
+            "level_12": ["frost_caverns"],
+            "level_13": ["ice_palace"],
+            "level_14": ["sunken_temple"],
+            "level_15": ["treasure_vault", "secret_oasis"],
+            "level_16": ["verdant_meadow", "whispering_woods"],
+            "level_17": ["underground_grotto","ancient_tree"],
+            "level_18": ["stormy_cliffs", "crystal_caves"],
+            "level_19": ["pirate_cove", "crystal_chamber"],
+            "level_20": ["burning_desert","emerald_grove", "healing_spring","dragon_peak","dragon_nest" ],
         }
         current_level = f"level_{self.player['level']}"
         if current_level in new_locations:
